@@ -10,6 +10,6 @@
 
 核心类分别是：
 
-CurveLineRenderer：封装了曲线的绘制方法
+* CurveLineRenderer：封装了曲线的绘制方法
 
-ArrowRenderer：封装了曲线箭头的绘制方法
+* ArrowRenderer：封装了曲线箭头的绘制方法
