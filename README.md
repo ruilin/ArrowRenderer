@@ -18,4 +18,4 @@ ArrowRenderer提供一种基于贝塞尔曲线实现绘制曲线箭头的方法�
 
 * 调用 resetPoints(ArrayList<float[]> points) 传入像素坐标即可画出相应的曲线，如果需要画直线，仅需要传入两个点即可。
 
-* 在 View.draw(Canvas canvas) 中调用 ArrowRenderer.draw(Canvas canvas)
+* 在 View.draw(Canvas canvas) 中调用 ArrowRenderer.draw(Canvas canvas) 实现计算结果的渲染。
