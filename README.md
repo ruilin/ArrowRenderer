@@ -1,5 +1,5 @@
 # ArrowRenderer
-曲线箭头的绘制方法
+*曲线箭头的绘制方法*
 
 <img width="300" height="534" src="https://github.com/ruilin/ArrowRenderer/blob/master/example.png"/>
 
