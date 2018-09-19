@@ -16,6 +16,20 @@ ArrowRenderer提供一种基于贝塞尔曲线实现绘制曲线箭头的方法�
 
 #### 接口调用流程：
 
-* 调用 resetPoints(ArrayList<float[]> points) 传入像素坐标即可画出相应的曲线，如果需要画直线，仅需要传入两个点即可。
+* 初始化：
+  `ArrowRenderer(int lineWidth, int color, byte arrowSize) `
+  参数分别是线的宽度、颜色、箭头尺寸比例
 
-* 在 View.draw(Canvas canvas) 中调用 ArrowRenderer.draw(Canvas canvas) 实现计算结果的渲染。
+  arrowSize的值为内置的三个类型：
+  ```
+    ARROW_SIZE_SMALL
+    ARROW_SIZE_MIDDLE
+    ARROW_SIZE_LARGE
+  ```
+* 传入像素坐标：
+  `resetPoints(ArrayList<float[]> points) `
+  传入像素坐标即可生成相应的曲线数据，
+  
+  如果需要画直线，仅需要传入两个点即可。
+
+* 在 `View.draw(Canvas canvas)` 中调用 `ArrowRenderer.draw(Canvas canvas)` 实现计算结果的渲染。
