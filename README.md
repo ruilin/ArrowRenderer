@@ -3,10 +3,9 @@
 
 <img width="300" height="534" src="https://github.com/ruilin/ArrowRenderer/blob/master/example.png"/>
 
-ArrowRenderer提供一种基于贝塞尔曲线实现绘制曲线箭头的方法，同时支持任意角度的直线箭头绘制。
+ArrowRenderer提供一种基于贝塞尔曲线实现绘制曲线箭头的方法，同时支持任意角度的直线箭头绘制。计算曲线和箭头方向的算法可以适用于其它平台。
 
 本案例在Android平台上提供一个画板，通过手指在屏幕中任意滑动，程序会根据滑动的轨迹画出相应的曲线箭头。
-计算曲线和箭头方向的算法可以适用于其它平台。
 
 #### 核心类：
 
